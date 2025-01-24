@@ -1,0 +1,151 @@
+GenericEntity : "{3970981B94D3F882}Prefabs/Systems/Arsenal/ArsenalBoxes/US/ArsenalBox_USMC.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eSupportedArsenalItemTypes 2097150
+   m_eArsenalSaveType NO_RESTRICTIONS
+  }
+  SCR_EditableSystemComponent "{5D4A8E6CFAD05117}" : "{6FA0A85CFC5420AD}Prefabs/Editor/Components/Systems_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
+    Name "#AresCore-EditableEntity_ArsenalBox_Name"
+    Icon "{7EDEAAC89131B224}UI/Textures/EditorPreviews/Auto/Systems/Arsenal/ArsenalBoxes/US/E_ArsenalBox_US.edds"
+    m_Image "{7EDEAAC89131B224}UI/Textures/EditorPreviews/Auto/Systems/Arsenal/ArsenalBoxes/US/E_ArsenalBox_US.edds"
+    m_sFaction "ARES"
+    m_aAuthoredLabels {
+    }
+    m_aAutoLabels {
+     7 122 27 1737628641
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{646EA8547286B4FE}" {
+      m_BudgetType SYSTEMS
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{646EA8547286B4E8}" {
+      m_BudgetType PROPS
+      m_Value 9
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{646EA8547286B4E1}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{646EA8547286B4E2}" {
+     m_Prefab "{5B8E1C1EFC841FB9}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_01.et"
+     m_vPosition -0.349 0 0.866
+     m_vAngles 0 -45.82 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{646EA8547286B4E6}" {
+     m_Prefab "{B953D46315370387}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rubus_idaeus_small_01.et"
+     m_vPosition 0.811 0 -1.143
+     m_vAngles 7.117 97.794 -1.702
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{646EA8547286B4DD}" {
+     m_Prefab "{AB6F2026BAB8DFCE}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rosa_canina_small_01.et"
+     m_vPosition -1.461 0 -0.781
+     m_vAngles 30.705 -127.202 -21.186
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{646EA8547286B4DF}" {
+     m_Prefab "{0B24DD72DAF499F4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V6_covered.et"
+     m_vPosition -1.132 0 -0.057
+     m_vAngles 0 89.179 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{646EA8547286B4D1}" {
+     m_Prefab "{C22D1A66EFA90AA5}PrefabsEditable/Auto/Vegetation/Cuttings/E_Corylus_avellana_small_01.et"
+     m_vPosition -0.856 0 -0.923
+     m_vAngles 11.144 -118.209 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{646EA8547286B4D3}" {
+     m_Prefab "{F4FE80265A0009B2}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V5_covered.et"
+     m_vPosition 0.036 0 -1.064
+     m_vAngles 0 177.707 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{646EA8547286B4D4}" {
+     m_Prefab "{37DA28FE40409097}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_02.et"
+     m_vPosition 0.533 0 0.922
+     m_vAngles 0 -19.083 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{646EA8547286B4CB}" {
+     m_Prefab "{37DA28FE40409097}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_02.et"
+     m_vPosition 1.104 0 0.282
+     m_vAngles 0 39.419 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{646EA8547286B4CA}" {
+     m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
+     m_vPosition 0.438 0 0.315
+     m_vAngles 0 54.557 0
+     m_fScale 1
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "ARES"
+  }
+ }
+ {
+  GenericEntity {
+   ID "58C4A255C2BC3015"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "58C4A255C2BC30AA"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "58C4A255C2BC30BA"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "58C4A255C2BC30C8"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "58C4A255C2BC30DB"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "58C4A255C2BC30E4"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "58C4A255C2BC31D4"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "56B6871A278AB642"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "58C4A255C2BC31E7"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "56B6871A1414CB69"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "58C4A6B41F6088BA"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     Flags 1048576
+    }
+   }
+  }
+ }
+}

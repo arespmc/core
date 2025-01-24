@@ -1,0 +1,35 @@
+GameProject {
+ ID "AresPMC_Core"
+ GUID "646EA585C2649E6B"
+ TITLE "Ares PMC - Core"
+ Dependencies {
+  "58D0FB3206B6F859" "595F2BF2F44836FB" "61C74A8B647617DA" "62E76AB6CC8DFD39" "62A668F513428630" "615806DC6C57AF02" "5CA125536EE7430A" "61E42AE6714A3CC2" "60C4C12DAE90727B"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{646EA8557B261DE5}" {
+      StringTableSource "{BB82A9EE8E57B936}Language/AresCore.st"
+      Languages {
+       LanguageDefinition "{646EA85575C3FC4B}" {
+        Code "en_us"
+        StringTableRuntime "{8F529794D51820E6}Language/AresCore.en_us.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{3B55778D1DC471AE}Prefabs/Characters/Factions/BLUFOR/ARES/Character_Ares_PMC_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{DDE06975E2E8947B}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_RGR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{438012CD2BA56DA3}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_RGR_UBGL.et"
+    }
+   }
+  }
+ }
+}
