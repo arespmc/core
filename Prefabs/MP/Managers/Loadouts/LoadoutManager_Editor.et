@@ -1,15 +1,33 @@
 SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
  ID "56B2B47708C4F23A"
  m_aPlayerLoadouts {
+  SCR_PlayerArsenalLoadout "{568CC9D1B0926B78}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et"
+   m_sAffiliatedFaction "USSR"
+  }
   SCR_FactionPlayerLoadout "{646EA85D4B1D308A}" {
    m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
    m_sLoadoutResource "{3B55778D1DC471AE}Prefabs/Characters/Factions/BLUFOR/ARES/Character_Ares_PMC_BaseLoadout.et"
    m_sAffiliatedFaction "ARES"
   }
   SCR_PlayerArsenalLoadout "{646EA85DA87DCD82}" {
-   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutName "Slot 1"
    m_sLoadoutResource "{3B55778D1DC471AE}Prefabs/Characters/Factions/BLUFOR/ARES/Character_Ares_PMC_BaseLoadout.et"
    m_sAffiliatedFaction "ARES"
+   m_sWCSSlotId "Slot1"
+  }
+  SCR_PlayerArsenalLoadout "{64FB27731F8EF241}" {
+   m_sLoadoutName "Slot 2"
+   m_sLoadoutResource "{3B55778D1DC471AE}Prefabs/Characters/Factions/BLUFOR/ARES/Character_Ares_PMC_BaseLoadout.et"
+   m_sAffiliatedFaction "ARES"
+   m_sWCSSlotId "Slot2"
+  }
+  SCR_PlayerArsenalLoadout "{64FB27731D7EFBAD}" {
+   m_sLoadoutName "Slot 3"
+   m_sLoadoutResource "{3B55778D1DC471AE}Prefabs/Characters/Factions/BLUFOR/ARES/Character_Ares_PMC_BaseLoadout.et"
+   m_sAffiliatedFaction "ARES"
+   m_sWCSSlotId "Slot3"
   }
  }
 }

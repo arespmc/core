@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{0A374E807AC0AB3E}Prefabs/Characters/Factions/BLUFOR/ARES/Character_Ares_PMC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4148613F69B36F89}Prefabs/Weapons/Rifles/KS1/Rifle_KS1_Suppressed.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{38531602641446A8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{BBF8FCF5B92BE780}Prefabs/Characters/Uniforms/Crye_Shirt/crye_shirt_mm14.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{C4FEAEB4AAA7B6B2}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_Coy.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{1818EE8132E2C650}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mm14.et"
+    }
+    LoadoutSlotInfo Armband {
+    }
+   }
+  }
+ }
+}

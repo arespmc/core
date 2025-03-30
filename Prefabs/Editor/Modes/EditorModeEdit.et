@@ -5,6 +5,12 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
    m_Registries {
     SCR_PlaceableEntitiesRegistry "{646EA85B5E7A62D1}" : "{26BB831E81D7C263}Configs/Editor/PlaceableEntities/Systems/Ares_Systems.conf" {
     }
+    SCR_PlaceableEntitiesRegistry "{64C2BD8FA00E5046}" : "{7C21E792D2AC7119}Configs/Editor/PlaceableEntities/Vehicles/Ares_Vehicles.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{64C2BD8924E6508A}" : "{9D656F3967E386B8}Configs/Editor/PlaceableEntities/Ares_Characters.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{64DD0791FF18EE1C}" : "{50048E8A73130D4C}Configs/Editor/PlaceableEntities/Ares_Groups.conf" {
+    }
    }
   }
  }

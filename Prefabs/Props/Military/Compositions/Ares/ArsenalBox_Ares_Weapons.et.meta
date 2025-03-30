@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{2102A9316516CBED}PrefabsEditable/Auto/Systems/Arsenal/ArsenalBoxes/US/E_ArsenalBox_AresPMC.et"
+ Name "{2CD411781726A3F9}Prefabs/Props/Military/Compositions/Ares/ArsenalBox_Ares_Weapons.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

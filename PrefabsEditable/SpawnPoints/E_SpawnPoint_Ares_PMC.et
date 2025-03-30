@@ -16,5 +16,5 @@ SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et"
   }
  }
  coords 0 0 0
- m_sFaction "RHS_USAF"
+ m_sFaction "ARES"
 }

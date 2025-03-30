@@ -1,0 +1,32 @@
+GenericEntity : "{2CD411781726A3F9}Prefabs/Props/Military/Compositions/Ares/ArsenalBox_Ares_Weapons.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  SCR_EditableSystemComponent "{5D4A8E6CFAD05117}" : "{6FA0A85CFC5420AD}Prefabs/Editor/Components/Systems_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
+    Name "#AresCore-EditableEntity_ArsenalBox_Weapons_Name"
+    Icon "{7EDEAAC89131B224}UI/Textures/EditorPreviews/Auto/Systems/Arsenal/ArsenalBoxes/US/E_ArsenalBox_US.edds"
+    m_Image "{7EDEAAC89131B224}UI/Textures/EditorPreviews/Auto/Systems/Arsenal/ArsenalBoxes/US/E_ArsenalBox_US.edds"
+    m_sFaction "ARES"
+    m_aAuthoredLabels {
+    }
+    m_aAutoLabels {
+     7 122 27 1737628641
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{646EA8547286B4FE}" {
+      m_BudgetType SYSTEMS
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{646EA8547286B4E8}" {
+      m_BudgetType PROPS
+      m_Value 9
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{646EA8547286B4E1}" {
+  }
+ }
+}

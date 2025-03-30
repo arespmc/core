@@ -1,13 +1,19 @@
 SCR_ChimeraCharacter : "{3B55778D1DC471AE}Prefabs/Characters/Factions/BLUFOR/ARES/Character_Ares_PMC_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FFFF7EE71DDF3CE9}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_FSP_EXPS.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{DDE06975E2E8947B}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_RGR.et"
+     Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{438012CD2BA56DA3}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_RGR_UBGL.et"
+     Prefab "{C41C60EA0CD22C53}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC.et"
     }
    }
   }

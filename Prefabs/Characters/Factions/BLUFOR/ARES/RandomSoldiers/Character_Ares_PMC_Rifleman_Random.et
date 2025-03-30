@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{0A374E807AC0AB3E}Prefabs/Characters/Factions/BLUFOR/ARES/Character_Ares_PMC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{C197603F7FD1C412}UI/Textures/Faction/arespmc_rifleman.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{64C2BD8963C9F20F}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{64C2BD897CDB43D3}" {
+      m_sVariantPrefab "{0A374E807AC0AB3E}Prefabs/Characters/Factions/BLUFOR/ARES/Character_Ares_PMC_Rifleman.et"
+     }
+     SCR_EditableEntityVariant "{64C2BD897C1CBEC4}" {
+      m_sVariantPrefab "{6D3746CADCB6E7B3}Prefabs/Characters/Factions/BLUFOR/ARES/Character_Ares_PMC_Rifleman_1.et"
+     }
+    }
+   }
+  }
+ }
+}

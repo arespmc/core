@@ -15,6 +15,9 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
+  FactionAffiliationComponent "{6063106E37B90E37}" {
+   "faction affiliation" "ARES"
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_sFaction "ARES"
@@ -26,13 +29,13 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{6AC0597EBA417C43}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_Rgr.et"
+     Prefab "{38531602641446A8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{2C95176F6AB1B16A}Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_OD.et"
+     Prefab "{47F35B0ADCD84F9E}Prefabs/Characters/Uniforms/Crye_Shirt/crye_shirt_MTP.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{9C624FF37082B70A}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_black.et"
+     Prefab "{DA59D9CEB305784D}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_MTP.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"

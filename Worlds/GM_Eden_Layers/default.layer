@@ -1,0 +1,41 @@
+$grp GenericEntity : "{2CD411781726A3F9}Prefabs/Props/Military/Compositions/Ares/ArsenalBox_Ares_Weapons.et" {
+ {
+  coords 4936.43 28.594 11898.14
+  angleY 90
+ }
+ {
+  coords 4936.432 28.594 11902.615
+  angleY 90
+ }
+ {
+  coords 4936.353 28.594 11907.273
+  angleY 90
+ }
+}
+$grp GenericEntity : "{9366AF60DB0A29FD}PrefabLibrary/Arsenals/ArsenalBox_Ares_Equipment.et" {
+ {
+  coords 4936.475 28.594 11900.162
+  angleY 90
+ }
+ {
+  coords 4936.417 28.594 11904.571
+  angleY 90
+ }
+ {
+  coords 4936.382 28.594 11909.273
+  angleY 90
+ }
+}
+SCR_SpawnPoint : "{AF88B34D7883CD15}Prefabs/MP/Spawning/SpawnPoint_Ares.et" {
+ components {
+  SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
+   DisplayName "MOB 2"
+   UnitType Infantry
+  }
+ }
+ coords 4944.176 28.594 11903.371
+ angleY -89.216
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "MOB"
+ }
+}
